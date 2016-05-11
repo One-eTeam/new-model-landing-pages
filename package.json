@@ -18,6 +18,7 @@
   "homepage": "https://github.com/One-eTeam/new-model-landing-pages#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-responsive-images": "^0.1.7",
     "grunt-responsive-images-extender": "^2.0.0"
   }
