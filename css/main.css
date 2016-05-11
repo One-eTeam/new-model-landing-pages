@@ -443,3 +443,43 @@ header + section {
 .specifications ul {
     padding-left: 1.2em;
 }
+
+@media screen and (max-width: 600px) {
+    .specifications thead,
+    .specifications tbody,
+    .specifications th,
+    .specifications tr,
+    .specifications td {
+        display: block;
+    }
+    .specifications thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .specifications td {
+        border-top: none;
+        padding-left: 35%;
+        position: relative;
+    }
+    .specifications td:first-child {
+        border-top: 1px solid #d6d6d6;
+    }
+    .specifications td[colspan] {
+        padding-left: .25em;
+    }
+    .specifications td:not([colspan]):before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30%;
+        text-align: right;
+        padding: 1.5ex 1em .25em .5em;
+        font-size: smaller;
+        line-height: 1em;
+        color: gray;
+    }
+    .specifications td[colspan]:before {
+        content: '' !important;
+    }
+}

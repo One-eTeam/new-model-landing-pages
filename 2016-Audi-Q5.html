@@ -123,6 +123,13 @@
 
                 <section>
                     <h2>Available Models and Trims</h2>
+                    <style>
+                        @media screen and (max-width: 600px) {
+                            .specifications td:nth-of-type(1):before { content: 'Premium'; }
+                            .specifications td:nth-of-type(2):before { content: 'Premium Plus'; }
+                            .specifications td:nth-of-type(3):before { content: 'Prestige'; }
+                        }
+                    </style>
                     <table class="specifications">
                         <thead>
                             <th>Premium</th>
