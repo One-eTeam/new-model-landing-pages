@@ -1,0 +1,24 @@
+{
+  "name": "new-model-landing-pages",
+  "version": "1.0.0",
+  "description": "New Model Landing Pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/One-eTeam/new-model-landing-pages.git"
+  },
+  "author": "AndrewRMinion Design",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/One-eTeam/new-model-landing-pages/issues"
+  },
+  "homepage": "https://github.com/One-eTeam/new-model-landing-pages#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-responsive-images": "^0.1.7",
+    "grunt-responsive-images-extender": "^2.0.0"
+  }
+}
