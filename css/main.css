@@ -246,6 +246,7 @@ nav a:hover {
     .main aside {
         float: right;
         width: 28%;
+        margin-left: 1em;
     }
 }
 
