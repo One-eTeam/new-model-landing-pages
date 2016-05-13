@@ -19,7 +19,8 @@
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
+    "grunt-juice": "0.0.2",
+    "grunt-replace": "^1.0.1",
     "grunt-responsive-images": "^0.1.7",
-    "grunt-responsive-images-extender": "^2.0.0"
   }
 }
